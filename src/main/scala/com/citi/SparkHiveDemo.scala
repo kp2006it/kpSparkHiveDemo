@@ -10,7 +10,7 @@ object SparkHiveDemo {
     var b=5
     var c = a+b
     println("a+b = "+c)
-    println("Master branch change")
+    println("Documentation branch 2nd commit")
     System.setProperty("hadoop.home.dir","C:\\winutils")
     val spark:SparkSession = SparkSession.builder().master("local[1]")
       .appName("ScalaDemo")
