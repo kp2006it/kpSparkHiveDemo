@@ -9,7 +9,7 @@ object SparkHiveDemo {
     var a=3
     var b=5
     var c = a+b
-    println("a+b = "+c)
+    println("a+b == "+c)
 
     System.setProperty("hadoop.home.dir","C:\\winutils")
     val spark:SparkSession = SparkSession.builder().master("local[1]")
