@@ -12,6 +12,7 @@ object SparkHiveDemo {
     println("a+b = "+c)
     println("Documentation branch 2nd commit")
     println("Documentation branch conflict check for new branch krishna pal")
+    println("Documentation branch conflict check for new branch krishna")
     System.setProperty("hadoop.home.dir","C:\\winutils")
     val spark:SparkSession = SparkSession.builder().master("local[1]")
       .appName("ScalaDemo")
